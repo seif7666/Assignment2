@@ -9,7 +9,7 @@ public class TheGame {
     public static final GameSet game = new GameSet();
 
     public static void main(String[] args) throws Exception {
-        game.readFile("F:\\CS\\my projects\\Java\\Assignment 2\\words.txt");
+        game.readFile("words.txt");
         game.setGameWord();//The word is generated.
         System.out.println(game.getGameWord());
         if (game.getGameWord() != null) {//The word isn't a buggy one.
